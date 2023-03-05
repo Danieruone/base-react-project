@@ -1,7 +1,7 @@
 // redux
 import { useSelector, useDispatch } from 'react-redux';
-import type { RootState } from '../../redux/store';
-import { decrement, increment } from '../../redux/reducers/counterSlice';
+import type { RootState } from 'redux/store';
+import { decrement, increment } from 'redux/reducers/counterSlice';
 
 import { Container } from './styles';
 
