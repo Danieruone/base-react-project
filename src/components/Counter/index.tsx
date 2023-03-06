@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import type { RootState } from 'redux/store';
 import { decrement, increment } from 'redux/reducers/counterSlice';
 
+// styles
 import { Container } from './styles';
 
 export const Counter = () => {
